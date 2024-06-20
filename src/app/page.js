@@ -52,7 +52,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>{process.env.NEXT_PUBLIC_API_BASE_PATH}</p>
         </a>
 
         <a
